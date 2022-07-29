@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 :root {
   --color-primary: #ecf0f3;
@@ -25,8 +26,8 @@
 } */
 
 body {
-  font-family: "Rubik", sans-serif;
-  background-color: var(--color-primary);
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
 }
 
 .custom-container {
@@ -44,4 +45,23 @@ body {
     ),
     url("/public/images/desktop/image-hero.jpg");
   width: 100%;
+}
+.custom-bg-card {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+.custom-bg-card:hover {
+  background: rgba(255, 255, 255, 0.597);
+  cursor: pointer;
+  color: #8c8c8c;
+  color: #696969;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Josefin Sans", sans-serif !important;
 }

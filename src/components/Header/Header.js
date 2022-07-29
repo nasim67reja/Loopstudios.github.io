@@ -3,12 +3,12 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="custom-bg h-[645px] bg-cover bg-center text-white">
+    <div className="custom-bg mb-36 h-[645px] bg-cover bg-center text-white">
       <Navbar />
-      <div className="mx-auto max-w-[1113px] px-12">
-        <div className="mt-[110px] max-w-[657px] border-2 border-white p-16 text-6xl font-light uppercase">
+      <div className="mx-auto max-w-[70rem] px-6">
+        <h1 className="mt-[110px] max-w-[38rem] border-2 border-white p-10 text-6xl font-light uppercase">
           Immersive Experiences that deliver
-        </div>
+        </h1>
       </div>
     </div>
   );
