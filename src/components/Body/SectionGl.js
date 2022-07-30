@@ -33,7 +33,7 @@ const SectionGl = () => {
 
         <div className="grid grid-cols-4 gap-5">
           {images.map((image, i) => (
-            <a href="_" className="relative">
+            <a href="_" className="relative" key={Math.random()}>
               <img src={image} alt={alt[i]} />
               <div className="custom-bg-card absolute top-0 left-0 h-full w-full"></div>
               <h2 className="absolute bottom-4 left-6 w-[10rem] text-center text-[30px] text-[#8c8c8c]">

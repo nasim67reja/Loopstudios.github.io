@@ -65,3 +65,15 @@ h3,
 h4 {
   font-family: "Josefin Sans", sans-serif !important;
 }
+
+.custom-shadow {
+  transition: all 0.3s ease-in-out;
+}
+.custom-shadow:hover {
+  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.8);
+}
+
+.custom-test {
+  fill: #696969 !important;
+  stroke: #696969 !important;
+}
