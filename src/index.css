@@ -77,3 +77,15 @@ h4 {
   fill: #696969 !important;
   stroke: #696969 !important;
 }
+
+@media (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+}
